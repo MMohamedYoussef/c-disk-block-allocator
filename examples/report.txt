@@ -1,0 +1,7 @@
+ALLOC alpha start=0 blocks=3
+ALLOC beta start=3 blocks=2
+MAP #####...
+FREE alpha
+ALLOC gamma start=0 blocks=2
+MAP ##.##...
+STATS used=4 free=4 largest_run=3 free_runs=2

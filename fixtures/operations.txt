@@ -1,0 +1,8 @@
+# Eight synthetic disk blocks, using first-fit contiguous allocation.
+ALLOC alpha 3
+ALLOC beta 2
+MAP
+FREE alpha
+ALLOC gamma 2
+MAP
+STATS
